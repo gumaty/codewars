@@ -287,3 +287,35 @@ There are pillars near the road. The distance between the pillars is the same an
     width of the pillar (10 - 50 centimeters).
 
 Calculate the distance between the first and the last pillar in centimeters (without the width of the first and last pillar).
+
+## Task 20
+
+You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.
+Examples
+
+    [2, 4, 0, 100, 4, 11, 2602, 36]
+    Should return: 11 (the only odd number)
+    
+    [160, 3, 1719, 19, 11, 13, -21]
+    Should return: 160 (the only even number)
+
+## Task 21
+
+The number 898989 is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. What's the use of saying "Eureka"? Because this sum gives the same number: 89 = 8^1 + 9^2
+
+The next number in having this property is 135135135:
+
+See this property again: 135=1^1+3^2+5^3 = 
+Task
+
+We need a function to collect these numbers, that may receive two integers aaa, bbb that defines the range [a,b][a, b][a,b] (inclusive) and outputs a list of the sorted numbers in the range that fulfills the property described above.
+Examples
+
+Let's see some cases (input -> output):
+
+    1, 10  --> [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    1, 100 --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 89]
+
+If there are no numbers of this kind in the range [a,b] the function should output an empty list.
+
+    90, 100 --> []
