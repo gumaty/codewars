@@ -6,8 +6,8 @@ Complete the solution so that it returns true if the first argument(string) pass
 
 Examples:
 
-solution('abc', 'bc') // returns true
-solution('abc', 'd') // returns false
+    solution('abc', 'bc') // returns true
+    solution('abc', 'd') // returns false
 
 ## Task 2
 
@@ -25,12 +25,12 @@ Given an integral number, determine if it's a square number:
 The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 Examples
 
--1  =>  false
-0  =>  true
-3  =>  false
-4  =>  true
-25  =>  true
-26  =>  false
+    -1  =>  false
+    0  =>  true
+    3  =>  false
+    4  =>  true
+    25  =>  true
+    26  =>  false
 
 ## Task 3
 
@@ -38,13 +38,13 @@ You are going to be given a word. Your job is to return the middle character of 
 
 #Examples:
 
-Kata.getMiddle("test") should return "es"
-
-Kata.getMiddle("testing") should return "t"
-
-Kata.getMiddle("middle") should return "dd"
-
-Kata.getMiddle("A") should return "A"
+    Kata.getMiddle("test") should return "es"
+    
+    Kata.getMiddle("testing") should return "t"
+    
+    Kata.getMiddle("middle") should return "dd"
+    
+    Kata.getMiddle("A") should return "A"
 
 #Input
 
@@ -63,21 +63,21 @@ Give your answer as a string matching "odd" or "even".
 If the input array is empty consider it as: [0] (array with a zero).
 Examples:
 
-Input: [0]
-Output: "even"
-
-Input: [0, 1, 4]
-Output: "odd"
-
-Input: [0, -1, -5]
-Output: "even"
+    Input: [0]
+    Output: "even"
+    
+    Input: [0, 1, 4]
+    Output: "odd"
+    
+    Input: [0, -1, -5]
+    Output: "even"
 
 ## Task 5
 
 Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
 Example
 
-createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+    createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 
 The returned format must be correct in order to complete this challenge.
 
@@ -93,9 +93,9 @@ If the parameter is itself not a perfect square then -1 should be returned. You 
 
 Examples:(Input --> Output)
 
-121 --> 144
-625 --> 676
-114 --> -1 since 114 is not a perfect square
+    121 --> 144
+    625 --> 676
+    114 --> -1 since 114 is not a perfect square
 
 ## Task 7
 
@@ -107,18 +107,18 @@ Implement a function that accepts 3 integer values a, b, c. The function should 
 
 Given an array of ones and zeroes, convert the equivalent binary value to an integer.
 
-Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
+    Eg: [0, 0, 0, 1] is treated as 0001 which is the binary representation of 1.
 
 Examples:
 
-Testing: [0, 0, 0, 1] ==> 1
-Testing: [0, 0, 1, 0] ==> 2
-Testing: [0, 1, 0, 1] ==> 5
-Testing: [1, 0, 0, 1] ==> 9
-Testing: [0, 0, 1, 0] ==> 2
-Testing: [0, 1, 1, 0] ==> 6
-Testing: [1, 1, 1, 1] ==> 15
-Testing: [1, 0, 1, 1] ==> 11
+    Testing: [0, 0, 0, 1] ==> 1
+    Testing: [0, 0, 1, 0] ==> 2
+    Testing: [0, 1, 0, 1] ==> 5
+    Testing: [1, 0, 0, 1] ==> 9
+    Testing: [0, 0, 1, 0] ==> 2
+    Testing: [0, 1, 1, 0] ==> 6
+    Testing: [1, 1, 1, 1] ==> 15
+    Testing: [1, 0, 1, 1] ==> 11
 
 However, the arrays can have varying lengths, not just limited to 4.
 
@@ -130,10 +130,10 @@ Note: Your answer should always be 6 characters long, the shorthand with 3 will 
 
 The following are examples of expected output values:
 
-rgb(255, 255, 255) // returns FFFFFF
-rgb(255, 255, 300) // returns FFFFFF
-rgb(0,0,0) // returns 000000
-rgb(148, 0, 211) // returns 9400D3
+    rgb(255, 255, 255) // returns FFFFFF
+    rgb(255, 255, 300) // returns FFFFFF
+    rgb(0,0,0) // returns 000000
+    rgb(148, 0, 211) // returns 9400D3
 
 ## Task 10
 
@@ -141,9 +141,9 @@ Implement the function unique_in_order which takes as argument a sequence and re
 
 For example:
 
-uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
-uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
-uniqueInOrder([1,2,2,3,3])       == [1,2,3]
+    uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
+    uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
+    uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 
 ## Task 11
 
@@ -151,10 +151,139 @@ Write Number in Expanded Form
 
 You will be given a number and you will need to return it as a string in Expanded Form. For example:
 
-expandedForm(12); // Should return '10 + 2'
-expandedForm(42); // Should return '40 + 2'
-expandedForm(70304); // Should return '70000 + 300 + 4'
+    expandedForm(12); // Should return '10 + 2'
+    expandedForm(42); // Should return '40 + 2'
+    expandedForm(70304); // Should return '70000 + 300 + 4'
 
 NOTE: All numbers will be whole numbers greater than 0.
 
 If you liked this kata, check out part 2!!
+
+## Task 12
+
+A Narcissistic Number (or Armstrong Number) is a positive number which is the sum of its own digits, each raised to the power of the number of digits in a given base. In this Kata, we will restrict ourselves to decimal (base 10).
+
+For example, take 153 (3 digits), which is narcissistic:
+
+    1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
+
+and 1652 (4 digits), which isn't:
+
+    1^4 + 6^4 + 5^4 + 2^4 = 1 + 1296 + 625 + 16 = 1938
+
+The Challenge:
+
+Your code must return true or false (not 'true' and 'false') depending upon whether the given number is a Narcissistic number in base 10.
+
+This may be True and False in your language, e.g. PHP.
+
+Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
+
+## Task 13
+
+In this kata you should simply determine, whether a given year is a leap year or not. In case you don't know the rules, here they are:
+
+    years divisible by 4 are leap years
+    but years divisible by 100 are not leap years
+    but years divisible by 400 are leap years
+
+Additional Notes:
+
+    Only valid years (positive integers) will be tested, so you don't have to validate them
+
+Examples can be found in the test fixture.
+
+## Task 14
+
+Given a point in a Euclidean plane (x and y), return the quadrant the point exists in: 1, 2, 3 or 4 (integer). x and y are non-zero integers, therefore the given point never lies on the axes.
+Examples
+
+    (1, 2)     => 1
+    (3, 5)     => 1
+    (-10, 100) => 2
+    (-1, -9)   => 3
+    (19, -56)  => 4
+
+## Task 15
+
+Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
+
+For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
+
+Constraint:
+
+    1 <= month <= 12
+
+## Task 16
+
+Wolves have been reintroduced to Great Britain. You are a sheep farmer, and are now plagued by wolves which pretend to be sheep. Fortunately, you are good at spotting them.
+
+Warn the sheep in front of the wolf that it is about to be eaten. Remember that you are standing at the front of the queue which is at the end of the array:
+
+[sheep, sheep, sheep, sheep, sheep, wolf, sheep, sheep]      (YOU ARE HERE AT THE FRONT OF THE QUEUE)
+7      6      5      4      3            2      1
+
+If the wolf is the closest animal to you, return "Pls go away and stop eating my sheep". Otherwise, return "Oi! Sheep number N! You are about to be eaten by a wolf!" where N is the sheep's position in the queue.
+
+Note: there will always be exactly one wolf in the array.
+Examples
+
+Input: ["sheep", "sheep", "sheep", "wolf", "sheep"]
+Output: "Oi! Sheep number 1! You are about to be eaten by a wolf!"
+
+Input: ["sheep", "sheep", "wolf"]
+Output: "Pls go away and stop eating my sheep"
+
+## Task 17
+
+Given 2 elevators (named "left" and "right") in a building with 3 floors (numbered 0 to 2), write a function elevator accepting 3 arguments (in order):
+
+    left - The current floor of the left elevator
+    right - The current floor of the right elevator
+    call - The floor that called an elevator
+
+It should return the name of the elevator closest to the called floor ("left"/"right").
+
+In the case where both elevators are equally distant from the called floor, choose the elevator to the right.
+
+You can assume that the inputs will always be valid integers between 0-2.
+
+Examples:
+
+    elevator(0, 1, 0); // => "left"
+    elevator(0, 1, 1); // => "right"
+    elevator(0, 1, 2); // => "right"
+    elevator(0, 0, 0); // => "right"
+    elevator(0, 2, 1); // => "right"
+
+## Task 18
+
+Our football team has finished the championship.
+
+Our team's match results are recorded in a collection of strings. Each match is represented by a string in the format "x:y", where x is our team's score and y is our opponents score.
+
+For example: ["3:1", "2:2", "0:1", ...]
+
+Points are awarded for each match as follows:
+
+    if x > y: 3 points (win)
+    if x < y: 0 points (loss)
+    if x = y: 1 point (tie)
+
+We need to write a function that takes this collection and returns the number of points our team (x) got in the championship by the rules given above.
+
+Notes:
+
+    our team always plays 10 matches in the championship
+    0 <= x <= 4
+    0 <= y <= 4
+
+## Task 19
+
+There are pillars near the road. The distance between the pillars is the same and the width of the pillars is the same. Your function accepts three arguments:
+
+    number of pillars (≥ 1);
+    distance between pillars (10 - 30 meters);
+    width of the pillar (10 - 50 centimeters).
+
+Calculate the distance between the first and the last pillar in centimeters (without the width of the first and last pillar).
