@@ -319,3 +319,48 @@ Let's see some cases (input -> output):
 If there are no numbers of this kind in the range [a,b] the function should output an empty list.
 
     90, 100 --> []
+
+## Task 22
+
+
+## Task 23
+
+
+## Task 24
+
+
+## Task 25
+
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+
+This function should return a number (final grade). There are four types of final grades:
+
+    100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+    90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+    75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+    0, in other cases
+
+Examples(Inputs-->Output):
+
+    100, 12 --> 100
+    99, 0 --> 100
+    10, 15 --> 100
+    
+    85, 5 --> 90
+    
+    55, 3 --> 75
+    
+    55, 0 --> 0
+    20, 2 --> 0
+
+*Use Comparison and Logical Operators.
+
+## Task 26
+
+Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), of a positive integer n.
+
+For example, if n = 111, then nearest\_sq(n) (nearestSq(n)) equals 121, since 111 is closer to 121, the square of 11, than 100, the square of 10.
+
+If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
