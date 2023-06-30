@@ -364,3 +364,34 @@ Your task is to find the nearest square number, nearest_sq(n) or nearestSq(n), o
 For example, if n = 111, then nearest\_sq(n) (nearestSq(n)) equals 121, since 111 is closer to 121, the square of 11, than 100, the square of 10.
 
 If the n is already the perfect square (e.g. n = 144, n = 81, etc.), you need to just return n.
+
+## Task 27
+
+Introduction
+
+The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+Task
+
+Given a year, return the century it is in.
+Examples
+
+    1705 --> 18
+    1900 --> 19
+    1601 --> 17
+    2000 --> 20
+
+Note: this kata uses strict construction as shown in the description and the examples, you can read more about it here
+
+## Task 28
+
+## Task 29
+
+Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+
+    HH = hours, padded to 2 digits, range: 00 - 99
+    MM = minutes, padded to 2 digits, range: 00 - 59
+    SS = seconds, padded to 2 digits, range: 00 - 59
+
+The maximum time never exceeds 359999 (99:59:59)
+
+You can find some examples in the test fixtures.
